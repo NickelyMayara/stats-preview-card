@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(233, 47%, 7%);
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.container{
+    display: flex;
+    border-radius: 10px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.div1{
+    background-color: hsl(244, 38%, 16%);
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: 10px 0px 0px 10px;
+    padding: 72px;
+}
+
+.div2{
+    width: 600px;
+    height: 500px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+img{
+filter: invert(30%) sepia(60%) saturate(400%) hue-rotate(233deg) brightness(65%) contrast(160%) opacity(80%)
+}
+
+.informacoes{
+    display: flex;
+}
